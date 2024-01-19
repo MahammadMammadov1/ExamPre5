@@ -1,8 +1,11 @@
 using ExamPre5.Business.Service.Implementations;
 using ExamPre5.Business.Service.Interfaces;
+using ExamPre5.Core.Models;
 using ExamPre5.Core.Repository.Interfaces;
 using ExamPre5.Data.DAL;
 using ExamPre5.Data.Repository.Implementations;
+using ExamPre5.ViewService;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,12 +14,28 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ITeamRepository, TeamRepository>();
 builder.Services.AddScoped<ITeamService, TeamService>();
-
-
+builder.Services.AddScoped<ISettingRepository, SettingRepository>();
+builder.Services.AddScoped<ISettingService, SettingService>();
+builder.Services.AddScoped<LayoutService>();
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {
     opt.UseSqlServer("Server=DESKTOP-LUGHNBO;Database=ExamPre5;Trusted_Connection=true;");
 });
+
+builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+{
+    opt.Password.RequiredUniqueChars = 0;
+    opt.Password.RequireNonAlphanumeric = true;
+    opt.Password.RequiredLength = 8;
+    opt.Password.RequireDigit = true;
+
+    opt.Password.RequireLowercase = true;
+    opt.Password.RequireUppercase = true;
+    opt.User.RequireUniqueEmail = false;
+
+}).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+
+
 
 var app = builder.Build();
 

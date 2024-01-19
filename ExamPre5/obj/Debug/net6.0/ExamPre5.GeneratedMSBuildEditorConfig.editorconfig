@@ -16,8 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\II novbe\Desktop\FinalExamMVC\src\ExamPre5\ExamPre5
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/II novbe/Desktop/FinalExamMVC/src/ExamPre5/ExamPre5/Areas/Manage/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXEFjY291bnRcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/II novbe/Desktop/FinalExamMVC/src/ExamPre5/ExamPre5/Areas/Manage/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXERhc2hib2FyZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/II novbe/Desktop/FinalExamMVC/src/ExamPre5/ExamPre5/Areas/Manage/Views/Setting/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNldHRpbmdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/II novbe/Desktop/FinalExamMVC/src/ExamPre5/ExamPre5/Areas/Manage/Views/Setting/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlXFZpZXdzXFNldHRpbmdcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/II novbe/Desktop/FinalExamMVC/src/ExamPre5/ExamPre5/Areas/Manage/Views/Shared/_Layout.cshtml]

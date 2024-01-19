@@ -1,11 +1,15 @@
 ﻿using ExamPre5.Business.CustomExceptions.Team;
 using ExamPre5.Business.Service.Interfaces;
 using ExamPre5.Core.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace ExamPre5.Areas.Manage.Controllers
 {
     [Area("Manage")]
+    [Authorize(Roles = "SuperAdmin")]
+
     public class TeamController : Controller
     {
         private readonly ITeamService _teamService;

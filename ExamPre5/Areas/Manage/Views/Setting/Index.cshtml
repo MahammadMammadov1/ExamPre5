@@ -1,0 +1,42 @@
+﻿@model List<Setting>
+@{
+    int counter = 0;
+}
+<div class="container-fluid row align-item-center justify-content-between">
+    All Setting
+</div>
+
+
+<div class="container-fluid">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Key</th>
+                <th scope="col">Value</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                counter++;
+                <tr>
+                    <th scope="row">@counter</th>
+                    <td>@item.Key</td>
+                    <td>@item.Value</td>
+                    
+
+                    <td>
+                        <a asp-action="update" asp-controller="team" asp-route-id="@item.Id" class="btn btn-primary">Update</a>
+                        
+                    </td>
+
+
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
