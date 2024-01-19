@@ -1,0 +1,14 @@
+C:\Users\II novbe\Desktop\FinalExamMVC\src\ExamPre5\ExamPre5.Core\bin\Debug\net6.0\ExamPre5.Core.deps.json
+C:\Users\II novbe\Desktop\FinalExamMVC\src\ExamPre5\ExamPre5.Core\bin\Debug\net6.0\ExamPre5.Core.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\ExamPre5\ExamPre5.Core\bin\Debug\net6.0\ExamPre5.Core.pdb
+C:\Users\II novbe\Desktop\FinalExamMVC\src\ExamPre5\ExamPre5.Core\obj\Debug\net6.0\ExamPre5.Core.csproj.AssemblyReference.cache
+C:\Users\II novbe\Desktop\FinalExamMVC\src\ExamPre5\ExamPre5.Core\obj\Debug\net6.0\ExamPre5.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\II novbe\Desktop\FinalExamMVC\src\ExamPre5\ExamPre5.Core\obj\Debug\net6.0\ExamPre5.Core.AssemblyInfoInputs.cache
+C:\Users\II novbe\Desktop\FinalExamMVC\src\ExamPre5\ExamPre5.Core\obj\Debug\net6.0\ExamPre5.Core.AssemblyInfo.cs
+C:\Users\II novbe\Desktop\FinalExamMVC\src\ExamPre5\ExamPre5.Core\obj\Debug\net6.0\ExamPre5.Core.csproj.CoreCompileInputs.cache
+C:\Users\II novbe\Desktop\FinalExamMVC\src\ExamPre5\ExamPre5.Core\obj\Debug\net6.0\ExamPre5.Core.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\ExamPre5\ExamPre5.Core\obj\Debug\net6.0\refint\ExamPre5.Core.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\ExamPre5\ExamPre5.Core\obj\Debug\net6.0\ExamPre5.Core.pdb
+C:\Users\II novbe\Desktop\FinalExamMVC\src\ExamPre5\ExamPre5.Core\obj\Debug\net6.0\ref\ExamPre5.Core.dll
+C:\Users\II novbe\Desktop\FinalExamMVC\src\ExamPre5\ExamPre5.Core\bin\Debug\net6.0\ExamPre5.Core.runtimeconfig.json
+C:\Users\II novbe\Desktop\FinalExamMVC\src\ExamPre5\ExamPre5.Core\obj\Debug\net6.0\ExamPre5.Core.genruntimeconfig.cache
