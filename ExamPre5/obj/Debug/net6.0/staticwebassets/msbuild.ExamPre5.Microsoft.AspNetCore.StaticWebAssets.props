@@ -896,12 +896,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\style.css))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Team\115aec93-278d-4b94-aac5-1b405d525febfabrice-villard-Jrl_UQcZqOc-unsplash.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Team\5b61c438-5493-45dc-8b0f-e5de265a9b27nicholas-kwok-VBWWscZtszY-unsplash.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ExamPre5</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ExamPre5</BasePath>
-      <RelativePath>Uploads/Team/115aec93-278d-4b94-aac5-1b405d525febfabrice-villard-Jrl_UQcZqOc-unsplash.jpg</RelativePath>
+      <RelativePath>Uploads/Team/5b61c438-5493-45dc-8b0f-e5de265a9b27nicholas-kwok-VBWWscZtszY-unsplash.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -910,14 +910,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Team\115aec93-278d-4b94-aac5-1b405d525febfabrice-villard-Jrl_UQcZqOc-unsplash.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Team\5b61c438-5493-45dc-8b0f-e5de265a9b27nicholas-kwok-VBWWscZtszY-unsplash.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Team\1ec422e9-1544-4cde-8f4c-884fb4fa63fcyoann-siloine-dyaxQ-aoGWY-unsplash.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Team\bb2adcc2-3712-4b79-84e3-be4223083c82nicholas-kwok-VBWWscZtszY-unsplash.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ExamPre5</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ExamPre5</BasePath>
-      <RelativePath>Uploads/Team/1ec422e9-1544-4cde-8f4c-884fb4fa63fcyoann-siloine-dyaxQ-aoGWY-unsplash.jpg</RelativePath>
+      <RelativePath>Uploads/Team/bb2adcc2-3712-4b79-84e3-be4223083c82nicholas-kwok-VBWWscZtszY-unsplash.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -926,14 +926,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Team\1ec422e9-1544-4cde-8f4c-884fb4fa63fcyoann-siloine-dyaxQ-aoGWY-unsplash.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Team\bb2adcc2-3712-4b79-84e3-be4223083c82nicholas-kwok-VBWWscZtszY-unsplash.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Team\41870fc6-6220-4996-9348-fffd4fceac3bflorian-klauer-mk7D-4UCfmg-unsplash.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Team\d40813c9-d814-454e-b7fe-38d559796ce0florian-klauer-mk7D-4UCfmg-unsplash.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>ExamPre5</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ExamPre5</BasePath>
-      <RelativePath>Uploads/Team/41870fc6-6220-4996-9348-fffd4fceac3bflorian-klauer-mk7D-4UCfmg-unsplash.jpg</RelativePath>
+      <RelativePath>Uploads/Team/d40813c9-d814-454e-b7fe-38d559796ce0florian-klauer-mk7D-4UCfmg-unsplash.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -942,23 +942,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Team\41870fc6-6220-4996-9348-fffd4fceac3bflorian-klauer-mk7D-4UCfmg-unsplash.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Team\7a11add5-00b6-4462-8fef-45615a797224nicholas-kwok-VBWWscZtszY-unsplash.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>ExamPre5</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ExamPre5</BasePath>
-      <RelativePath>Uploads/Team/7a11add5-00b6-4462-8fef-45615a797224nicholas-kwok-VBWWscZtszY-unsplash.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Team\7a11add5-00b6-4462-8fef-45615a797224nicholas-kwok-VBWWscZtszY-unsplash.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Team\d40813c9-d814-454e-b7fe-38d559796ce0florian-klauer-mk7D-4UCfmg-unsplash.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vendor\bootstrap\js\bootstrap.bundle.js))">
       <SourceType>Package</SourceType>

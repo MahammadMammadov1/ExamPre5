@@ -83,9 +83,9 @@ namespace ExamPre5.Business.Service.Implementations
                     throw new ContentTypeException("FormFile", "File must be png or jpeg");
                 }
 
-                string oldPath = Path.Combine(_env.WebRootPath, "Uploads/Team") + exist.ImageUrl;
+                string oldPath = Path.Combine(_env.WebRootPath, "Uploads/Team", exist.ImageUrl);
 
-                if (!File.Exists(oldPath))
+                if (File.Exists(oldPath))
                 {
                     File.Delete(oldPath);
                 }

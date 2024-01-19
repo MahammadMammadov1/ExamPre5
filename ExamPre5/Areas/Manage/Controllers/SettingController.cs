@@ -18,18 +18,20 @@ namespace ExamPre5.Areas.Manage.Controllers
         {
             _settingService = settingService;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            return View(await _settingService.GetAllAsync());
         }
 
-        public IActionResult Update(int id) 
+        public async Task<IActionResult> Update(int id) 
         {
+            if (await _settingService.GetByIdAsync(id) == null) { return View("Error"); }
             return View();
         }
-
+        [HttpPost]
         public async Task<IActionResult> Update(Setting setting) 
         {
+            if (setting == null) { return View("Error"); }
             if(!ModelState.IsValid) return View();
             try
             {
